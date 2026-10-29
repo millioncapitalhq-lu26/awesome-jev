@@ -75,7 +75,7 @@ Found something wrong? Open an issue or a pull request — **removal is as valid
 - [Finance & Trading](categories/finance-trading.md) — 10 entries
 - [Compliance & Legal](categories/compliance-legal.md) — 6 entries
 - [Content Moderation](categories/content-moderation.md) — 14 entries
-- [Related Practices / Discussions](categories/related-practices-discussions.md) — 107 entries
+- [Related Practices / Discussions](categories/related-practices-discussions.md) — 108 entries
 
 ### Open categories still being seeded
 
@@ -865,6 +865,7 @@ Source file: [`categories/related-practices-discussions.md`](categories/related-
 - [Build your own decision model](https://nishtahir.com/build-your-own-decision-model/) - Tutorial: explains that a System One model answers every allowed option with a calibrated probability in a single pass, where a language model constrained to emit the same JSON took 11 passes in the worked example.
 - [awesome-jev-resources](https://github.com/karozi/awesome-jev-resources) ![stars](https://img.shields.io/github/stars/karozi/awesome-jev-resources?style=flat-square&label=%E2%98%85) - Curated list: collects Jev guides, official documentation and community projects - the fifth curated list in this catalogue, listed for the same reason as the other four.
 - [Jev Notes](https://github.com/Itachi-of-the-Leaf/JevBlog) ![stars](https://img.shields.io/github/stars/Itachi-of-the-Leaf/JevBlog?style=flat-square&label=%E2%98%85) - Explainer: a frontend-only, source-cited walkthrough of Jev, the System One model family and the published RLCD training objective behind them.
+- [awesome-ai-quant](https://github.com/vicfei/awesome-ai-quant) ![stars](https://img.shields.io/github/stars/vicfei/awesome-ai-quant?style=flat-square&label=%E2%98%85) - Curated list: a bilingual map of quantitative finance for AI engineers, whose decision-models section tracks where Jev already sits in trading stacks - TradingAgents screens social posts with it, ai-hedge-fund lists it as a provider - alongside LLM factor mining and tabular foundation models.
 
 ## Submission format
 
