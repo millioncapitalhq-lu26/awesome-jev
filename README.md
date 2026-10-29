@@ -61,7 +61,7 @@ Found something wrong? Open an issue or a pull request — **removal is as valid
 
 ## Current coverage
 
-- [Classification & Routing](categories/classification-routing.md) — 76 entries
+- [Classification & Routing](categories/classification-routing.md) — 77 entries
 - [Adaptive & Realtime UI](categories/adaptive-realtime-ui.md) — 13 entries
 - [Verification & Guardrails](categories/verification-guardrails.md) — 62 entries
 - [Scoring & Ranking](categories/scoring-ranking.md) — 44 entries
@@ -120,6 +120,7 @@ Optional tags on an entry name the coding agent it targets and the kind of integ
 
 Source file: [`categories/classification-routing.md`](categories/classification-routing.md)
 
+- [VideoAdGuard](https://github.com/ZeroTang05/VideoAdGuard) ![stars](https://img.shields.io/github/stars/ZeroTang05/VideoAdGuard?style=flat-square&label=%E2%98%85) - Video advertising: a browser extension that uses Jev `Noul` decisions to identify embedded promotions in Bilibili video subtitles, mark their time ranges, and let viewers skip them manually or automatically without searching through the video.
 - [Neutron Email Triage](https://github.com/Geneonosis/neutron-email-triage) ![stars](https://img.shields.io/github/stars/Geneonosis/neutron-email-triage?style=flat-square&label=%E2%98%85) - Email triage: uses Jev `Choice` to classify Proton Mail Bridge messages as keep, archive, review, or trash, defaults to dry-run, and only permits execute-mode trash moves when trash wins with probability at or above an explicitly supplied threshold of at least 0.9.
 - [JEV Book Tags](https://github.com/iamjonatha/jev-book-tags) ![type: plugin](https://img.shields.io/badge/type-plugin-4B5563?style=flat-square) ![stars](https://img.shields.io/github/stars/iamjonatha/jev-book-tags?style=flat-square&label=%E2%98%85) - Library cataloguing: a calibre plugin asks Jev `Noul` questions about book genres and subjects, applies configurable per-tag probability thresholds, and preserves existing tags while leaving uncertain results for review.
 - [Diffusion Jev](https://github.com/Hangzhi/diffusion-jev-sglang) ![stars](https://img.shields.io/github/stars/Hangzhi/diffusion-jev-sglang?style=flat-square&label=%E2%98%85) - Visual classification: independent Jev-style DiffusionGemma/SGLang server that selects doodle and flower labels from image pixels with typed Choice questions and displays candidate scores in a drawing playground, with public evaluation artifacts and uncalibrated probabilities.

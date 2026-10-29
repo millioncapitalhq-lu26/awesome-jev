@@ -10,6 +10,7 @@ Use this category for programs where Jev sorts incoming state into categories or
 
 ## Entries
 
+- [VideoAdGuard](https://github.com/ZeroTang05/VideoAdGuard) - Video advertising: a browser extension that uses Jev `Noul` decisions to identify embedded promotions in Bilibili video subtitles, mark their time ranges, and let viewers skip them manually or automatically without searching through the video.
 - [Neutron Email Triage](https://github.com/Geneonosis/neutron-email-triage) - Email triage: uses Jev `Choice` to classify Proton Mail Bridge messages as keep, archive, review, or trash, defaults to dry-run, and only permits execute-mode trash moves when trash wins with probability at or above an explicitly supplied threshold of at least 0.9.
 - [JEV Book Tags](https://github.com/iamjonatha/jev-book-tags) `{type: plugin}` - Library cataloguing: a calibre plugin asks Jev `Noul` questions about book genres and subjects, applies configurable per-tag probability thresholds, and preserves existing tags while leaving uncertain results for review.
 - [Diffusion Jev](https://github.com/Hangzhi/diffusion-jev-sglang) - Visual classification: independent Jev-style DiffusionGemma/SGLang server that selects doodle and flower labels from image pixels with typed Choice questions and displays candidate scores in a drawing playground, with public evaluation artifacts and uncalibrated probabilities.
