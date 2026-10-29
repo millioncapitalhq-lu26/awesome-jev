@@ -10,6 +10,7 @@ Use this category for decisions inside games, simulations, or interactive enviro
 
 ## Entries
 
+- [AI Turtle Soup](https://github.com/ZeroTang05/Situation-Puzzle) - Gaming: uses Jev Choice decisions to judge player questions and solution attempts in a lateral-thinking puzzle game.
 - [typesafe-mario](https://github.com/fhshaik/typesafe-mario) - Gaming: TypeSafe/Jev agent that plays Super Mario Bros. from structured emulator state, choosing each action from emulator-derived features.
 - [tsai-sc](https://github.com/phyous/tsai-sc) - Gaming: drives original StarCraft shareware through keyboard and mouse with Jev action probabilities recorded per decision.
 - [jev-plays-pokemon](https://github.com/milanboers/jev-plays-pokemon) - Gaming: reads Pokémon Red game state as text, answers typed questions each turn, and lets deterministic code turn the answers into moves.

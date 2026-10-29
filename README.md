@@ -70,7 +70,7 @@ Found something wrong? Open an issue or a pull request — **removal is as valid
 - [Evaluation & Benchmarking](categories/evaluation-benchmarking.md) — 49 entries
 - [Calibration & Research](categories/calibration-research.md) — 55 entries
 - [Infra / SDKs / Integrations](categories/infra-sdks-integrations.md) — 123 entries
-- [Game & Simulation](categories/game-simulation.md) — 28 entries
+- [Game & Simulation](categories/game-simulation.md) — 29 entries
 - [Robotics & Physical](categories/robotics-physical.md) — 11 entries
 - [Finance & Trading](categories/finance-trading.md) — 10 entries
 - [Compliance & Legal](categories/compliance-legal.md) — 6 entries
@@ -664,6 +664,7 @@ Source file: [`categories/infra-sdks-integrations.md`](categories/infra-sdks-int
 
 Source file: [`categories/game-simulation.md`](categories/game-simulation.md)
 
+- [AI Turtle Soup](https://github.com/ZeroTang05/Situation-Puzzle) ![stars](https://img.shields.io/github/stars/ZeroTang05/Situation-Puzzle?style=flat-square&label=%E2%98%85) - Gaming: uses Jev Choice decisions to judge player questions and solution attempts in a lateral-thinking puzzle game.
 - [typesafe-mario](https://github.com/fhshaik/typesafe-mario) ![stars](https://img.shields.io/github/stars/fhshaik/typesafe-mario?style=flat-square&label=%E2%98%85) - Gaming: TypeSafe/Jev agent that plays Super Mario Bros. from structured emulator state, choosing each action from emulator-derived features.
 - [tsai-sc](https://github.com/phyous/tsai-sc) ![stars](https://img.shields.io/github/stars/phyous/tsai-sc?style=flat-square&label=%E2%98%85) - Gaming: drives original StarCraft shareware through keyboard and mouse with Jev action probabilities recorded per decision.
 - [jev-plays-pokemon](https://github.com/milanboers/jev-plays-pokemon) ![stars](https://img.shields.io/github/stars/milanboers/jev-plays-pokemon?style=flat-square&label=%E2%98%85) - Gaming: reads Pokémon Red game state as text, answers typed questions each turn, and lets deterministic code turn the answers into moves.
