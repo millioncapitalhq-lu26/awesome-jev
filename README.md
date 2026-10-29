@@ -69,7 +69,7 @@ Found something wrong? Open an issue or a pull request — **removal is as valid
 - [Data Labeling & Curation](categories/data-labeling-curation.md) — 11 entries
 - [Evaluation & Benchmarking](categories/evaluation-benchmarking.md) — 49 entries
 - [Calibration & Research](categories/calibration-research.md) — 55 entries
-- [Infra / SDKs / Integrations](categories/infra-sdks-integrations.md) — 123 entries
+- [Infra / SDKs / Integrations](categories/infra-sdks-integrations.md) — 124 entries
 - [Game & Simulation](categories/game-simulation.md) — 29 entries
 - [Robotics & Physical](categories/robotics-physical.md) — 11 entries
 - [Finance & Trading](categories/finance-trading.md) — 10 entries
@@ -660,6 +660,7 @@ Source file: [`categories/infra-sdks-integrations.md`](categories/infra-sdks-int
 - [Jev Moderation for Laravel](https://github.com/phoenix1331/laravel-jev-moderation) ![stars](https://img.shields.io/github/stars/phoenix1331/laravel-jev-moderation?style=flat-square&label=%E2%98%85) - PHP framework: a trait that classifies an Eloquent model's content every time it is saved, with tests and static analysis wired into CI.
 - [jevquery](https://github.com/saembit/jevquery) ![type: library](https://img.shields.io/badge/type-library-4B5563?style=flat-square) ![stars](https://img.shields.io/github/stars/saembit/jevquery?style=flat-square&label=%E2%98%85) - Data tooling: TypeScript library where Jev picks the table as a `Choice`, the filter column, operator, value, sort and limit as `Choice`s over candidates from the sentence, and the returned columns as one `Noul` per column, so code emits a parameterized SELECT or runs the plan through Drizzle or Prisma with Standard Schema validators able to veto a value or the plan.
 - [Flide](https://github.com/OmniJev/Flide) ![stars](https://img.shields.io/github/stars/OmniJev/Flide?style=flat-square&label=%E2%98%85) - Serving: open inference engine for decision models that forks one state into all of its questions in one forward pass, so every answer matches the question asked alone, and serves OneJev, Qwen3.5 and Gemma 4 through `/v1/systemone`.
+- [aisdk/typesafe](https://github.com/phpaisdk/typesafe) ![stars](https://img.shields.io/github/stars/phpaisdk/typesafe?style=flat-square&label=%E2%98%85) - PHP SDK: a framework-agnostic PHP 8.3 provider that gives the aisdk/core package native Jev decisions, so a PHP application can ask typed questions without hand-rolling an HTTP client.
 
 ### Game & Simulation
 
