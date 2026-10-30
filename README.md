@@ -61,20 +61,20 @@ Found something wrong? Open an issue or a pull request — **removal is as valid
 
 ## Current coverage
 
-- [Classification & Routing](categories/classification-routing.md) — 77 entries
+- [Classification & Routing](categories/classification-routing.md) — 76 entries
 - [Adaptive & Realtime UI](categories/adaptive-realtime-ui.md) — 13 entries
 - [Verification & Guardrails](categories/verification-guardrails.md) — 62 entries
 - [Scoring & Ranking](categories/scoring-ranking.md) — 44 entries
 - [Agent Decisions](categories/agent-decisions.md) — 66 entries
 - [Data Labeling & Curation](categories/data-labeling-curation.md) — 11 entries
 - [Evaluation & Benchmarking](categories/evaluation-benchmarking.md) — 49 entries
-- [Calibration & Research](categories/calibration-research.md) — 55 entries
+- [Calibration & Research](categories/calibration-research.md) — 56 entries
 - [Infra / SDKs / Integrations](categories/infra-sdks-integrations.md) — 124 entries
 - [Game & Simulation](categories/game-simulation.md) — 29 entries
 - [Robotics & Physical](categories/robotics-physical.md) — 11 entries
 - [Finance & Trading](categories/finance-trading.md) — 10 entries
 - [Compliance & Legal](categories/compliance-legal.md) — 6 entries
-- [Content Moderation](categories/content-moderation.md) — 14 entries
+- [Content Moderation](categories/content-moderation.md) — 13 entries
 - [Related Practices / Discussions](categories/related-practices-discussions.md) — 108 entries
 
 ### Open categories still being seeded
@@ -195,7 +195,6 @@ Source file: [`categories/classification-routing.md`](categories/classification-
 - [TypeSafe Jev x Salesforce](https://github.com/divingsbysangam/typesafe-jev-salesforce) ![stars](https://img.shields.io/github/stars/divingsbysangam/typesafe-jev-salesforce?style=flat-square&label=%E2%98%85) - Case triage: a working Salesforce DX project that puts a typed decision model inside Apex instead of a generative LLM, so every new Service Cloud case is classified, scored and routed by answers that are numbers rather than prose.
 - [vd-jev](https://github.com/ondata/vd-jev) ![stars](https://img.shields.io/github/stars/ondata/vd-jev?style=flat-square&label=%E2%98%85) - Data inspection: a VisiData plugin that asks one closed question about every row of a chosen text column, turning free text in a spreadsheet into a column of typed answers without leaving the viewer.
 - [X Reply Judge](https://github.com/liaocaoxuezhe/x-reply-judge-jev) ![stars](https://img.shields.io/github/stars/liaocaoxuezhe/x-reply-judge-jev?style=flat-square&label=%E2%98%85) - AI-text labelling: a Chrome extension that puts one badge on every X post showing the probability Jev assigns to the text being AI-written, with stated colour cutoffs at 70 and 31 and no explanation list at all.
-- [Trio-Spark Ticket Rush](https://github.com/machinefi/trio-spark/tree/main/demos/ticket-rush) ![stars](https://img.shields.io/github/stars/machinefi/trio-spark?style=flat-square&label=%E2%98%85) - Support triage: sends each of 1,000 support tickets to the System One-compatible Trio-Spark API as one `choice` over eight team queues and routes any ticket whose top probability is below 0.6 to human review instead.
 - [SpotAsk](https://github.com/shiquda/SpotAsk) ![stars](https://img.shields.io/github/stars/shiquda/SpotAsk?style=flat-square&label=%E2%98%85) - Query routing: a native macOS menu bar assistant that asks Jev a typed `Choice` over your configured channels to decide whether a question is answered in the app or sent to a web AI, desktop app, or CLI agent, with confirmation by default and optional auto-routing above a confidence threshold.
 
 ### Adaptive & Realtime UI
@@ -532,6 +531,7 @@ Source file: [`categories/calibration-research.md`](categories/calibration-resea
 - [Decision 3.0](https://www.reddit.com/r/LocalLLaMA/comments/1x3th4p/) - Open models: a multimodal decision-model family spanning 0.6B to 27B that reports ranking first on both Jev Decision Index boards.
 - [VideoJev](https://github.com/MCG-NJU/VideoJev) ![stars](https://img.shields.io/github/stars/MCG-NJU/VideoJev?style=flat-square&label=%E2%98%85) - Video understanding: Jev-inspired System One models score temporal membership and multiple-choice answers for several queries over one shared video prefix, then decode scores into intervals and selected answers without generating text.
 - [minimind-jev](https://github.com/vicfei/minimind-jev) ![stars](https://img.shields.io/github/stars/vicfei/minimind-jev?style=flat-square&label=%E2%98%85) - Train your own: a frozen Chinese encoder behind a small trained head, published with v0.1 weights and a results table on the same 100-query protocol as jev-rag-zh-benchmark, where hosted Jev reaches nDCG@5 0.546 with a confidence interval and the trained head 0.488.
+- [Trio-Spark](https://github.com/machinefi/trio-spark) ![stars](https://img.shields.io/github/stars/machinefi/trio-spark?style=flat-square&label=%E2%98%85) - Independent decision model: a hosted System One-compatible API whose demos ship checked-in evidence, including a simulated quadrotor that completed an obstacle course in 65 s on 25 model calls, 75.7 m flown and zero collisions, and a robot arm that finished in 13 calls with zero forbidden contacts.
 
 ### Infra / SDKs / Integrations
 
@@ -753,7 +753,6 @@ Source file: [`categories/content-moderation.md`](categories/content-moderation.
 - [Rot Guard](https://github.com/plusminushalf/rot-guard) ![type: extension](https://img.shields.io/badge/type-extension-4B5563?style=flat-square) ![stars](https://img.shields.io/github/stars/plusminushalf/rot-guard?style=flat-square&label=%E2%98%85) - Digital wellbeing: bring-your-own-key Chrome extension that asks Jev a content-category `Choice`, a `Noul` on whether the page serves the user's written goals and a 0–4 waste-of-time `Score` for every YouTube video, X, Reddit or LinkedIn page and article, plus a `Choice` and `Noul` per X post and YouTube tile in batches of 10, then blocks or collapses in code with thresholds that tighten at 2, 10 and 20 minutes of engaged time, and grades a one-shot appeal with three `Noul`s that earn 15 minutes or lock the page until midnight.
 - [social-risk-qwen-jev](https://github.com/TianJinWeiBoss520/social-risk-qwen-jev) ![stars](https://img.shields.io/github/stars/TianJinWeiBoss520/social-risk-qwen-jev?style=flat-square&label=%E2%98%85) - Chinese moderation: pairs a Qwen3-VL LoRA with a Jev decision model to judge multimodal social-risk content.
 - [HN Jev Sorter](https://github.com/ritza-co/hn-jev-sorter) ![stars](https://img.shields.io/github/stars/ritza-co/hn-jev-sorter?style=flat-square&label=%E2%98%85) - Reading aid: a Chrome extension that sorts Hacker News comments into buckets you choose while you read, with Jev classifying each comment in about a second.
-- [Trio-Spark Comment Bouncer](https://github.com/machinefi/trio-spark/tree/main/demos/comment-bouncer) ![stars](https://img.shields.io/github/stars/machinefi/trio-spark?style=flat-square&label=%E2%98%85) - Comment moderation: asks the System One-compatible Trio-Spark API one show/hide `choice` per live-chat comment, then two adjustable thresholds show, send to review or auto-hide each comment from the stored P(hide) without calling the model again.
 - [stalwart-jev](https://github.com/mikluko/stalwart-jev) ![stars](https://img.shields.io/github/stars/mikluko/stalwart-jev?style=flat-square&label=%E2%98%85) - Drop-in classifier: serves the chat-completions endpoint Stalwart's LLM spam classifier calls, but asks Jev one `Choice` over subject and body and answers in the server's own vocabulary - Unsolicited, Commercial, Harmful or Legitimate.
 - [Jev X Blocker](https://github.com/bit-cook/Jev-X-Blocker) ![stars](https://img.shields.io/github/stars/bit-cook/Jev-X-Blocker?style=flat-square&label=%E2%98%85) - Local moderation: a Chrome MV3 extension that uses your own Jev key to hide high-confidence sexual and solicitation content on X, covering posts as well as replies, with a recoverable placeholder rather than a silent removal.
 
