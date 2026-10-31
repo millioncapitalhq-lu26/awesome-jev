@@ -67,7 +67,7 @@ Found something wrong? Open an issue or a pull request — **removal is as valid
 - [Scoring & Ranking](categories/scoring-ranking.md) — 44 entries
 - [Agent Decisions](categories/agent-decisions.md) — 66 entries
 - [Data Labeling & Curation](categories/data-labeling-curation.md) — 11 entries
-- [Evaluation & Benchmarking](categories/evaluation-benchmarking.md) — 49 entries
+- [Evaluation & Benchmarking](categories/evaluation-benchmarking.md) — 50 entries
 - [Calibration & Research](categories/calibration-research.md) — 56 entries
 - [Infra / SDKs / Integrations](categories/infra-sdks-integrations.md) — 124 entries
 - [Game & Simulation](categories/game-simulation.md) — 29 entries
@@ -471,6 +471,7 @@ Source file: [`categories/evaluation-benchmarking.md`](categories/evaluation-ben
 - [s1kit](https://github.com/Eliot5566/s1kit) ![type: cli](https://img.shields.io/badge/type-cli-4B5563?style=flat-square) ![stars](https://img.shields.io/github/stars/Eliot5566/s1kit?style=flat-square&label=%E2%98%85) - Model evaluation: runs one YAML suite of labelled `Choice`, `Score` and `Noul` cases against Jev and other `/v1/systemone` servers side by side, fits the lowest confidence cutoff per question that reaches a target precision, routes answers below it to the next model, and fails CI through a GitHub Action when accuracy drops.
 - [Jev bias audit](https://github.com/isaacbitran/jev-bias-audit) ![stars](https://img.shields.io/github/stars/isaacbitran/jev-bias-audit?style=flat-square&label=%E2%98%85) - Counterfactual audit: 134,772 answers to prompt pairs that differ only in one identity sentence, across jev-1.13.0 and 1.14.0, finding that an identity label moves predictions 3 to 15 percentage points while an associated name moves them by fractions of a point.
 - [Jev calibration audit](https://github.com/n9omi/jev-calibration-audit) ![stars](https://img.shields.io/github/stars/n9omi/jev-calibration-audit?style=flat-square&label=%E2%98%85) - Calibration test: checks Jev's probabilities against U.S. petroleum inventory reports, where the right answer can be computed exactly from EIA data, comparing it word for word with an LLM classifier through LangChain.
+- [Jev, job by job](https://github.com/WeBuildDatabases/jev-job-by-job) ![stars](https://img.shields.io/github/stars/WeBuildDatabases/jev-job-by-job?style=flat-square&label=%E2%98%85) - Field guide: works through the twenty jobs taught by the twenty-one official cookbooks, sets its own prompts beside TypeSafe's job by job, and records what each cookbook claims next to what the model actually did.
 
 ### Calibration & Research
 
